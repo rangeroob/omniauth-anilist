@@ -6,7 +6,7 @@ module OmniAuth
     class Anilist < OmniAuth::Strategies::OAuth2
       include OmniAuth::Strategy
       option :client_options, {
-        site: 'https://anilist.co',
+        site: 'https://graphql.anilist.co',
         authorize_url: 'https://anilist.co/api/v2/oauth/authorize',
         token_url: 'https://anilist.co/api/v2/oauth/token'
       }
